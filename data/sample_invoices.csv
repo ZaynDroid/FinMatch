@@ -1,0 +1,16 @@
+invoice_id,customer_name,amount,issue_date,due_date,reference,note
+INV-101,Sharma Kirana Store,12500.00,2026-10-05,2026-10-20,B-2201,Grocery supplies invoice
+INV-102,Gupta Hardware,48000.00,2026-10-06,2026-10-25,B-2202,Construction materials
+INV-103,Verma Medical Hall,7800.00,2026-10-08,2026-11-05,B-2203,Pharmaceuticals delivery
+INV-104,Singh Tuition Centre,15000.00,2026-10-01,2026-10-15,B-2204,Monthly coaching fees
+INV-105,Rawat Wholesale Traders,125000.00,2026-10-10,2026-10-28,B-2205,Bulk grocery shipment
+INV-106,Joshi Dairy,6800.00,2026-10-12,2026-11-10,B-2206,Dairy products Oct-A
+INV-107,Bisht Clinic,9600.00,2026-10-03,2026-10-18,B-2207,Diagnostic equipment maintenance
+INV-108,Negi Electricals,22400.00,2026-10-15,2026-11-02,B-2208,Wiring and fixtures
+INV-109,Pant Cloth House,56000.00,2026-09-28,2026-10-12,B-2209,Textile wholesale
+INV-110,Kumar Sweets,4500.00,2026-10-18,2026-11-08,B-2210,Festival catering order
+INV-111,Arora Auto Parts,31000.00,2026-10-02,2026-10-22,B-2211,Vehicle components
+INV-112,Sharma Kirana Store,6800.00,2026-10-22,2026-11-12,B-2212,Secondary supplies Oct-B
+INV-ERR1,Bad Amount Store,-5000.00,2026-10-01,2026-10-15,B-9999,Invalid negative amount test
+,Missing ID Customer,1200.00,2026-10-02,2026-10-16,B-9998,Invalid missing ID test
+INV-ERR3,Invalid Date Corp,3400.00,invalid-date,2026-10-20,B-9997,Invalid date test

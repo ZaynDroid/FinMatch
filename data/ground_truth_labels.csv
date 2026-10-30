@@ -1,0 +1,14 @@
+invoice_id,payment_id,is_match,match_type,notes
+INV-101,PAY-501,1,EXACT_REFERENCE,Payment references INV-101 and amount matches exactly
+INV-102,PAY-502,1,PARTIAL_REFERENCE,Part payment of 30000 on 48000 invoice referencing B-2202
+INV-103,PAY-503,1,FUZZY_CUSTOMER,Verma Medical Hall vs Verma Medical with exact amount
+INV-104,PAY-504,1,EXACT_REFERENCE,Singh Tuition payment in cash explicitly referencing INV-104
+INV-105,PAY-505,1,PARTIAL_REFERENCE,Rawat Wholesale cheque payment referencing B-2205
+INV-106,PAY-506,1,EXACT_CUSTOMER,Joshi Dairy exact amount and customer match
+INV-107,PAY-507,1,FUZZY_CUSTOMER,Bisht Clinic vs Dr Bisht with exact amount
+INV-108,PAY-508,1,PARTIAL_REFERENCE,Negi Electricals vs Negi Elec referencing INV-108
+INV-110,PAY-509,1,EXACT_CUSTOMER,Kumar Sweets exact amount cash payment
+INV-106,PAY-510,0,AMBIGUOUS_AMOUNT_ONLY,6800 amount matches but payer is Ramesh (false match)
+INV-112,PAY-510,0,AMBIGUOUS_AMOUNT_ONLY,6800 amount matches Sharma Kirana invoice but payer is Ramesh (false match)
+INV-109,PAY-511,0,NO_MATCH,Unrelated advance payment should not match Pant Cloth House
+INV-111,PAY-511,0,NO_MATCH,Unrelated advance payment should not match Arora Auto Parts

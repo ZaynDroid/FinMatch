@@ -1,0 +1,14 @@
+payment_id,customer_name,amount,payment_date,reference,payment_method,note
+PAY-501,Sharma Kirana,12500.00,2026-10-07,UPI4382910,UPI,Settlement for INV-101
+PAY-502,Gupta Hardware,30000.00,2026-10-14,NEFT771204,Bank Transfer,Part payment for B-2202
+PAY-503,Verma Medical,7800.00,2026-10-16,UPI5521097,UPI,Pharma invoice payment
+PAY-504,Singh Tuition,15000.00,2026-10-12,CASH-0412,Cash,Cash receipt for INV-104
+PAY-505,Rawat Wholesale,60000.00,2026-10-18,CHQ000341,Cheque,Advance on invoice B-2205
+PAY-506,Joshi Dairy,6800.00,2026-10-20,UPI6610342,UPI,Dairy bill clearance
+PAY-507,Dr Bisht,9600.00,2026-10-17,UPI7712009,UPI,Clinic equipment service fee
+PAY-508,Negi Elec,10000.00,2026-10-22,UPI8820451,UPI,Partial payment for INV-108
+PAY-509,Kumar Sweets,4500.00,2026-10-25,CASH-0425,Cash,Cash payment sweets
+PAY-510,Ramesh,6800.00,2026-10-26,UPI9930118,UPI,Payment via Ramesh without reference
+PAY-511,Unrelated Advance Payer,25000.00,2026-10-29,NEFT881290,Bank Transfer,Unsolicited deposit with no invoice
+PAY-ERR1,Error Negative Payment,-2000.00,2026-10-20,UPI00001,UPI,Invalid negative amount test
+PAY-ERR2,Error Invalid Date,4000.00,2026-99-99,UPI00002,UPI,Invalid date format test
